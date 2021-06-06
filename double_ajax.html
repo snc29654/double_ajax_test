@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<HTML lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <META HTTP-EQuiv="Content-Type" Content="text/html; charset=Shift_JIS">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AjaxPythonCGI</title>
+<!--
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+ -->
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12 col-md-12">
+          <h1 class="text-center">ajax 実験</h1>
+          <button type="button" class="btn btn-default btn-lg pull-right" id="button">エコーおよびファイル書き込み</button>
+          <button type="button" class="btn btn-default btn-lg pull-right" id="button1">ファイル読み出し</button>
+        </div>
+      </div>
+      <div class="row">
+          <textarea class="form-control" rows="10" id="indata0" enabled>送信データ1</textarea>
+          <textarea class="form-control" rows="10" id="indata1" enabled>送信データ2</textarea>
+          <textarea class="form-control" rows="10" id="result" disabled>エコーデータ1</textarea>
+          <textarea class="form-control" rows="10" id="add0" disabled>エコーデータ2</textarea>
+        <div>
+          <textarea class="form-control" rows="10" id="readresult1" disabled>ファイル読み出し1</textarea>
+          <textarea class="form-control" rows="10" id="readresult2" disabled>ファイル読み出し2</textarea>
+        </div>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="js/double.js"></script>
+  </body>
+</html>
